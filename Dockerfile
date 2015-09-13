@@ -14,9 +14,23 @@ RUN apt-get update && apt-get install -y \
 
 	tmux \
 
-	zsh
+	zsh \
 
-#next set up developer user "hacker"
+	git \
+
+	python \
+
+	wget \
+
+	curl
+
+# install and setup pip for powerline usage/install
+RUN wget https://bootstrap.pypa.io/get-pip.py && \
+
+	python get-pip.py && \
+
+	pip install powerline-status
+
 
 CMD ["zsh"]
 
