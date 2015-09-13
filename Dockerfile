@@ -7,6 +7,7 @@ LABEL com.hackerhappyhour.category="developer-tools" \
 
 USER root
 
+# install base tools used for development
 RUN apt-get update && apt-get install -y \
 
 	vim \
@@ -15,9 +16,7 @@ RUN apt-get update && apt-get install -y \
 
 	zsh
 
-RUN mkdir -p /code
-
-WORKDIR /code
+#next set up developer user "hacker"
 
 CMD ["zsh"]
 
