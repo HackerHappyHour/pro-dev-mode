@@ -31,7 +31,14 @@ RUN wget https://bootstrap.pypa.io/get-pip.py && \
 
 	pip install powerline-status
 
+# add user
+RUN groupadd -r hacker && useradd -g hacker hacker -d /home/hacker
 
+USER hacker
+
+WORKDIR /home/hacker
+
+COPY .tmux.conf .vimrc .zshrc ./ 
 CMD ["zsh"]
 
 
