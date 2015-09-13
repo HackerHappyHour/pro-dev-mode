@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y \
 
 	tmux \
 
-	zsh \
+	zsh
 
 RUN mkdir -p /code
 
