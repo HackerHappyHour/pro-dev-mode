@@ -51,10 +51,13 @@ autocmd FileType javascript noremap <buffer>  <c-f> :call JsBeautify()<cr>
 let g:jsx_ext_required = 0
 
 " colorschemes downloaded via pathogen
-set t_Co=256
-colorscheme badwolf 
+if &t_Co > 2 || has("gui_running")
+	" switch syntax highligting on, when the terminal has colors
+	syntax on
+	colorscheme badwolf
+endif
+
 
 " CoVim via pathogen
 let CoVim_default_name = "HACKER"
 let CoVim_default_port = "8030"
-
