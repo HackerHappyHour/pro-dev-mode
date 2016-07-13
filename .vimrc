@@ -39,7 +39,6 @@ endif
 " for powerline
 set laststatus=2
 set showtabline=2
-set noshowmode
 
 " file explorer
 map <leader>k :E<cr>
@@ -47,7 +46,6 @@ map <leader>k :E<cr>
 " pathogen plugin manager
 execute pathogen#infect()
 
-set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 autocmd FileType javascript noremap <buffer>  <c-f> :call JsBeautify()<cr>
 " react via pathogen
 let g:jsx_ext_required = 0
