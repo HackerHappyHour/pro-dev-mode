@@ -56,8 +56,3 @@ if &t_Co > 2 || has("gui_running")
 	syntax on
 	colorscheme badwolf
 endif
-
-
-" CoVim via pathogen
-let CoVim_default_name = "HACKER"
-let CoVim_default_port = "8030"
