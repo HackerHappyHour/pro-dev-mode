@@ -1,18 +1,24 @@
 ###############################
-# General OS/Binaries/Configs #
+# General OS/Binaries/logs #
 ###############################
-.direnv
-.envrc
+
 .env
 *.log
 *.zip
 *.tar.gz
 *.exe
-*.exe~*.dll
+*.exe~
+*.dll
 *.so
 *.dylib
+
+# ignore swap memory
 *.swp
 *.swo
+
+# for direnv tool. see direnv.net
+.direnv
+.envrc
 
 ########################
 # Editor's and IDE's   #
