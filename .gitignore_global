@@ -1,0 +1,31 @@
+###############################
+# General OS/Binaries/Configs #
+###############################
+.direnv
+.envrc
+.env
+*.log
+*.zip
+*.tar.gz
+*.exe
+*.exe~*.dll
+*.so
+*.dylib
+*.swp
+*.swo
+
+########################
+# Editor's and IDE's   #
+########################
+
+# vim
+*~
+
+# visual studio code
+*.vscode/*
+!*.vscode/settings.json
+!*.vscode/tasks.json
+!*.vscode/launch.json
+!*.vscode/extensions.json
+*.code-workspace
+
