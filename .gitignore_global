@@ -1,0 +1,37 @@
+###############################
+# General OS/Binaries/logs #
+###############################
+
+.env
+*.log
+*.zip
+*.tar.gz
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# ignore swap memory
+*.swp
+*.swo
+
+# for direnv tool. see direnv.net
+.direnv
+.envrc
+
+########################
+# Editor's and IDE's   #
+########################
+
+# vim
+*~
+
+# visual studio code
+*.vscode/*
+!*.vscode/settings.json
+!*.vscode/tasks.json
+!*.vscode/launch.json
+!*.vscode/extensions.json
+*.code-workspace
+

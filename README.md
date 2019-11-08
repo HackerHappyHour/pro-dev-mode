@@ -4,6 +4,7 @@
 1. [Visual Studio Code Extensions](#visual-studio-code)  
 	1. [Settings](#vscode-settings)
 	1. [Extensions](#vscode-extensions)
+1. [Global Git Ignore Settings](#global-git-ignore-settings)
 
 ## Vim Plugins
 
@@ -119,7 +120,28 @@ ritwickdey.LiveServero
 techer.open-in-browser
 ```
 
+### Global Git Ignore Settings
+
+It is considered best practice for your `.gitignore` file to only have ignore statements
+relevant to the languages, libraries and tools used directly by your code.
+
+User specific ignores, (those typically related to your choice of development platform, consisting
+of editor and operating system), are better off configured in git globally.
+
+We have included a good set of ignore statements that should cover any choice of OS, as well as
+vim or vscode.  To add these, copy the `.gitignore_global` file to your user home directory,
+and configure git's global `core.excludesfile` to use this file:
+
+
+```
+$ cd /path/to/this/cloned/repo/pro-dev-mode
+$ cp .gitignore_global ~/.gitignore_global
+$ git config --global core.excludesfile ~/.gitignore_global
+```
+
+
 [Pathogen]: https://github.com/tpope/vim-pathogen
 [vscode]: https://code.visualstudio.com
 [VSCodeVim]: https://marketplace.visualstudio.com/items?itemName=vscodevim.vim
 [vim]: https://www.vim.org
+
