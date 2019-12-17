@@ -116,7 +116,7 @@ octref.vetur                   # for vue development goodness
 platformio.platformio-ide
 prisma.vscode-graphql          # currently in preview
 redhat.vscode-yaml
-ritwickdey.LiveServero
+ritwickdey.LiveServer
 techer.open-in-browser
 ```
 
