@@ -89,7 +89,7 @@ A list of our favorite user settings, as taken from the user settings.json file:
 Here's a list of general purpose extensions 
 
 ```
-eamodio.gitlens
+mhutchie.git-graph
 CoenraadS.bracket-pair-colorizer-2
 donjayamanne.githistory
 DavidAnson.vscode-markdownlint
@@ -116,7 +116,7 @@ octref.vetur                   # for vue development goodness
 platformio.platformio-ide
 prisma.vscode-graphql          # currently in preview
 redhat.vscode-yaml
-ritwickdey.LiveServero
+ritwickdey.LiveServer
 techer.open-in-browser
 ```
 
