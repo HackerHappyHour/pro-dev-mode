@@ -64,6 +64,7 @@ A list of our favorite user settings, as taken from the user settings.json file:
 ```json
 {
     "workbench.colorTheme": "Material Theme Darker",
+    "workbench.iconTheme": "eq-material-theme-icons-darker,
     "docker.groupImagesBy": "Repository",
     "vim.insertModeKeyBindings": [
         {
@@ -78,9 +79,8 @@ A list of our favorite user settings, as taken from the user settings.json file:
     "workbench.startupEditor": "newUntitledFile",
     "terminal.integrated.rendererType": "dom",
     "terminal.integrated.shell.linux": "/bin/zsh",
-    "breadcrumbs.enabled": false,
     "editor.renderControlCharacters": true,
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "eq-material-theme-icons-darker"
 }
 ```
 
@@ -93,30 +93,30 @@ mhutchie.git-graph
 CoenraadS.bracket-pair-colorizer-2
 DavidAnson.vscode-markdownlint
 EditorConfig.EditorConfig
-Equinusocio.vsc-material-theme
-icrawl.discord-vscode
-Metatype.copilot-vscode
-ms-azuretools.vscode-docker
-ms-vscode.cpptools
-PKief.material-icon-theme
-ryu1kn.edit-with-shell
-shyykoserhiy.vscode-spotify
-vscodevim.vim
-```
-
-And some more language specific ones:
-
-```
 esbenp.prettier-vscode         # works automatically with .editorconfig!
+Equinusocio.vsc-material-theme
+Equinusocio.vsc-material-theme-icons
+Metatype.copilot-vscode
+ryu1kn.edit-with-shell
+vscodevim.vim
+redhat.vscode-yaml
+ritwickdey.LiveServer
+techer.open-in-browser
+```
+
+And some more language specific or fun ones:
+
+```
+shyykoserhiy.vscode-spotify
+icrawl.discord-vscode
+ms-azuretools.vscode-docker
 ms-vscode.cpptools
 ms-vscode.Go
 msjsdiag.debugger-for-chrome
 octref.vetur                   # for vue development goodness
 platformio.platformio-ide
 prisma.vscode-graphql          # currently in preview
-redhat.vscode-yaml
-ritwickdey.LiveServer
-techer.open-in-browser
+
 ```
 
 ### Global Git Ignore Settings
