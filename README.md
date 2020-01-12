@@ -64,7 +64,7 @@ A list of our favorite user settings, as taken from the user settings.json file:
 ```json
 {
     "workbench.colorTheme": "Material Theme Darker",
-    "workbench.iconTheme": "eq-material-theme-icons-darker,
+    "workbench.iconTheme": "eq-material-theme-icons-darker",
     "docker.groupImagesBy": "Repository",
     "vim.insertModeKeyBindings": [
         {
