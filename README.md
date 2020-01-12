@@ -79,8 +79,7 @@ A list of our favorite user settings, as taken from the user settings.json file:
     "workbench.startupEditor": "newUntitledFile",
     "terminal.integrated.rendererType": "dom",
     "terminal.integrated.shell.linux": "/bin/zsh",
-    "editor.renderControlCharacters": true,
-    "workbench.iconTheme": "eq-material-theme-icons-darker"
+    "editor.renderControlCharacters": true
 }
 ```
 
