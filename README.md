@@ -91,7 +91,6 @@ Here's a list of general purpose extensions
 ```
 mhutchie.git-graph
 CoenraadS.bracket-pair-colorizer-2
-donjayamanne.githistory
 DavidAnson.vscode-markdownlint
 EditorConfig.EditorConfig
 Equinusocio.vsc-material-theme
