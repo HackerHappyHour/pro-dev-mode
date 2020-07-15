@@ -95,7 +95,6 @@ EditorConfig.EditorConfig
 esbenp.prettier-vscode         # works automatically with .editorconfig!
 Equinusocio.vsc-material-theme
 Equinusocio.vsc-material-theme-icons
-Metatype.copilot-vscode
 ryu1kn.edit-with-shell
 vscodevim.vim
 redhat.vscode-yaml
