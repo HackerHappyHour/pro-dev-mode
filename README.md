@@ -86,7 +86,7 @@ A list of our favorite user settings, as taken from the user settings.json file:
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.acceptSuggestionOnEnter": "off",
     "editor.formatOnPaste": true,
-    "workbench.editor.highlightModifiedTabs": tru
+    "workbench.editor.highlightModifiedTabs": true
 }
 ```
 
