@@ -79,7 +79,14 @@ A list of our favorite user settings, as taken from the user settings.json file:
     "workbench.startupEditor": "newUntitledFile",
     "terminal.integrated.rendererType": "dom",
     "terminal.integrated.shell.linux": "/bin/zsh",
-    "editor.renderControlCharacters": true
+    "editor.renderControlCharacters": true,
+    "window.zoomLevel": 2,
+    "explorer.confirmDelete": false,
+    "editor.fontSize": 12,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.formatOnPaste": true,
+    "workbench.editor.highlightModifiedTabs": tru
 }
 ```
 
@@ -100,6 +107,7 @@ vscodevim.vim
 redhat.vscode-yaml
 ritwickdey.LiveServer
 techer.open-in-browser
+bierner.emojisense
 ```
 
 And some more language specific or fun ones:
@@ -108,12 +116,15 @@ And some more language specific or fun ones:
 shyykoserhiy.vscode-spotify
 icrawl.discord-vscode
 ms-azuretools.vscode-docker
-ms-vscode.cpptools
-ms-vscode.Go
 msjsdiag.debugger-for-chrome
-octref.vetur                   # for vue development goodness
+# javascript
+orta.vscode-jest 
+prisma.vscode-graphql 
+# C++ / IoT
+ms-vscode.cpptools
 platformio.platformio-ide
-prisma.vscode-graphql          # currently in preview
+# go-lang
+ms-vscode.Go
 
 ```
 
