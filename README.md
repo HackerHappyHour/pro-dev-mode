@@ -77,6 +77,7 @@ A list of our favorite user settings, as taken from the user settings.json file:
         "editor.autoClosingBrackets": false
     },
     "workbench.startupEditor": "newUntitledFile",
+    "terminal.integrated.fontFamily": "Menlo for Powerline",
     "terminal.integrated.rendererType": "dom",
     "terminal.integrated.shell.linux": "/bin/zsh",
     "editor.renderControlCharacters": true,
