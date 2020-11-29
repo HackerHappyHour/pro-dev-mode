@@ -1,0 +1,25 @@
+{
+    "editor.fontSize": 12,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.formatOnPaste": true,
+    "editor.renderControlCharacters": true,
+    "explorer.confirmDelete": false,
+    "terminal.integrated.fontFamily": "Menlo for Powerline",
+    "window.zoomLevel": 2,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Material Theme Darker",
+    
+    "docker.groupImagesBy": "Repository",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        }
+    ],
+
+    "[cpp]": {
+        "editor.autoClosingBrackets": false
+    },
+}
