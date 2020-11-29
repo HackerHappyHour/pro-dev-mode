@@ -1,0 +1,10 @@
+[
+  {
+    "key": "ctrl+b b",
+    "command": "workbench.action.toggleActivityBarVisibility"
+  },
+  {
+    "key": "ctrl-+up ctrl+`",
+    "command": "workbench.action.toggleMaximizedPanel"
+  }
+]
