@@ -4,7 +4,7 @@
     "command": "workbench.action.toggleActivityBarVisibility"
   },
   {
-    "key": "ctrl-+up ctrl+`",
+    "key": "ctrl-+up up",
     "command": "workbench.action.toggleMaximizedPanel"
   }
 ]
