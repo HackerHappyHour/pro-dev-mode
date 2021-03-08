@@ -70,7 +70,11 @@ A list of our favorite user settings, as taken from the user settings.json file:
         {
             "before": ["j", "k"],
             "after": ["<Esc>"]
-        }
+        },
+        {
+	    "before": ["j", "j"],
+            "after": ["<Esc>", "A"]
+	}
     ],
     "terminal.explorerKind": "external",
     "[cpp]": {
