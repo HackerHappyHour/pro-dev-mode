@@ -19,7 +19,7 @@
         },
         {
             "before": ["j", "j"],
-            "after: ["<Esc>", "A"]
+            "after": ["<Esc>", "A"]
         }
     ],
 
@@ -27,7 +27,7 @@
         "editor.autoClosingBrackets": false
     },
     "files.associations": {
-        "*.h": "cpp"
+      "*.h": "cpp"
     },
     "javascript.updateImportsOnFileMove.enabled": "always"
 }
