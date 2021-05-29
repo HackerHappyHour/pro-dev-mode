@@ -16,11 +16,18 @@
         {
             "before": ["j", "k"],
             "after": ["<Esc>"]
+        },
+        {
+            "before": ["j", "j"],
+            "after: ["<Esc>", "A"]
         }
     ],
 
     "[cpp]": {
         "editor.autoClosingBrackets": false
+    },
+    "files.associations": {
+        "*.h": "cpp"
     },
     "javascript.updateImportsOnFileMove.enabled": "always"
 }
